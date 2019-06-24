@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{titlesec}
+\usepackage[bottom=0in, top=0.5in]{geometry}
+\usepackage{mathtools}
+\usepackage{supertabular} 				%for Grades
+
+\begin{document} 
+%\layout
+
+\pagestyle{empty}
+\setlength{\textwidth}{500pt}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\par{\centering
+		{\Huge Jicheng \Huge{Zhi}
+	}\bigskip
+	\par}
+	
+\section{Personal Data}
+
+\noindent\begin{tabular}{p{7cm} l}
+	\textsc{Date of Birth} & \textsc{16 July 1995} \\
+	\textsc{Gender} & \textsc{Male}\\
+    \textsc{email} & jzhi001@fiu.edu\\
+    \textsc{phone} & $\left(+86\right)$ 133 3206 0071
+    
+\end{tabular}
+
+\section{Education}
+
+\noindent\begin{tabular}{p{5cm} l}
+	\textsc{Aug 2017} 
+		& Bachelor degree in \emph{Hospitality management}\\
+		&\textbf{Florida International University}\\
+		&\textbf{Tianjin University of Commerce}\\
+\end{tabular}
+
+\section{Work Experience}
+
+\noindent\begin{tabular}{r|p{9.5cm}}
+
+\textsc{May-Aug 2018} 
+	& \textsc{Tianjin Businesssoft Co., Ltd.}\\
+	&\emph{Java Software Developer}\\
+
+	& Developed coupon module for food ordering program. \\
+	& \\
+	& Kotlin + Redis + RabbitMQ\\
+	& Features: coupon delivery by user/batch, coupon consumption
+		and daily report generation.\\
+	& Fixed "ghost coupon" bug of old module and significantly reduce latency of coupon comsuption in high concurrency situation.\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{May-Aug 2017} 
+	& \textsc{Tianjin Four Seasons}\\
+	&\emph{Concierge Intern}\\
+
+	&Responsible for room show, luggage saving, lost \& found and tour guidance.\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Jun-Sep 2015} 
+	& \textsc{Banyan Tree Tianjin Riverside}\\
+	&\emph{F\&B Intern}\\
+	
+	&Provided 24h room service, buffet and a la carte service. 
+	Delivered welcome fruit to all in room guests. \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Dec 2013-Feb 2014} 
+	& \textsc{Renaissance Tianjin Lake view Hotel}\\
+\textsc{Jun-Aug 2014} 
+	& \emph{Banquet Intern}\\
+	& In charge of ballroom layout implement \& refreshement and
+	banquet guest services.\\
+
+\end{tabular}
+
+\section{Knowledge}
+	\noindent\begin{tabular}{p{20cm}}
+	Java: Reflection, Generics, NIO, Concurrency programming\\
+	Kotlin: Null safety, Elvis operator, extension functions, generics...\\
+	Basic C \& Unix programming\\
+	Basic data structure \& algorithms\\
+	Spring, Spring MVC, Mybatis\\
+	Redis: common commands, data structures 
+	and source code reading $\left( dict, listpack, ae... \right)$\\
+\end{tabular}
+
+\section{Certificates}
+
+\noindent\begin{tabular}{p{7cm} l}
+	TOEFL (2014) & 93/120\\
+	IELTS (2018) & 6.5/9\\
+\end{tabular}
+
+\section{Intersets}\noindent
+\begin{tabular}{p{15cm}}
+	Writting scripts to automate boring jobs\\
+	Reading source code of awesome projects (currently Redis)\\
+	Learning on Coursera: finished Nand2tetris Part one \& two\\
+	Writting documents in \LaTeX (including this one)\\
+\end{tabular}
+
+\end{document}
