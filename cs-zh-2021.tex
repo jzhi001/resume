@@ -1,0 +1,106 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[UTF8]{ctex}
+\usepackage{titlesec}
+\usepackage[bottom=0in, top=0.5in]{geometry}
+\usepackage{supertabular} 				%for Grades
+\usepackage{phonenumbers}
+
+\begin{document} 
+%\layout
+
+\pagestyle{empty}
+\setlength{\textwidth}{500pt}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\par{\centering
+		{\Huge 支纪承
+	}\bigskip
+	\par}
+	
+\section{个人信息}
+
+\noindent\begin{tabular}{p{7cm} l}
+	\textsc{生日} & \textsc{1995-07-16} \\
+	\textsc{性别} & \textsc{男}\\
+    \textsc{邮箱} & jichengzhi0716@icloud.com\\
+    \textsc{电话} & \textsc{(+86)133-3206-0071}
+    
+\end{tabular}
+
+\section{学历}
+
+\noindent\begin{tabular}{p{7cm} l}
+	\textsc{2013-2017} 
+		& 酒店管理本科（双学位）\\
+		&\textbf{天津商业大学}\\
+		&\textbf{佛罗里达国际大学}\\
+	\textsc{2021至今} 
+		& 计算机科学研究生\\
+		&\textbf{亚利桑那州立大学}\\
+\end{tabular}
+
+\section{工作经历}
+
+\noindent\begin{tabular}{r|p{9.5cm}}
+\textsc{2020.12至今} 
+	& \textsc{北京读我科技有限公司}\\
+	&\emph{Golang服务器开发工程师}\\
+
+	&主要负责售卖系统和活动系统的开发和维护，包括春节活动赚现金四期的开发、老售卖系统到新售卖系统的业务迁移和部分数据向中台迁移\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{2020.6-2020.12} 
+	& \textsc{亚信科技}\\
+	&\emph{Java后端开发工程师}\\
+
+	&主要负责知识库系统和公告系统二期、三期需求开发，包括新增用户角色和权限判断、自动录入知识（自动识别多个docx文件中的段落、表格和字体等格式信息并自动转化为可展示的知识）、知识首页展示内容的个性化配置、提供公告系统弹窗/滚动/短信提醒的API和对应的前端实现\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{2019.7-2020.6} 
+	& \textsc{天津途牛科技有限公司}\\
+	&\emph{Java后端开发工程师}\\
+	
+	&主要负责开发邮轮业务统一接入平台和某个邮轮供应商的对接服务，使用GeoHash算法完成附近酒店匹配\\
+\multicolumn{2}{c}{} \\
+
+\textsc{2017.8-2019.7} 
+	& \textsc{间隔年}\\
+	&\emph{自学}\\
+	
+	&通过Coursera和技术书籍自学编程相关知识，出国旅游\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\newpage
+
+\section{技能}\noindent
+\begin{tabular}{p{6cm} l}
+	语言
+		& Java, Go\\ 
+	Spring 
+		& 熟练使用Spring Boot开发\\
+		& 掌握Eureka和Ribbon并阅读过关键部分源码\\
+	MySQL 
+		& 了解索引和MVCC原理，掌握常用的调优手段\\
+	Mybatis 
+		& 熟练使用并通过阅读源码掌握实现原理\\
+	Redis 
+		& 常用数据结构和缓存淘汰机制的底层实现\\
+	Linux
+		& 掌握基本的操作系统知识和常用操作\\
+\end{tabular}
+
+\section{证书}
+\noindent\begin{tabular}{p{7cm} l}
+	托福  & 93/120\\
+	雅思  & 6.5/9\\
+	PAT甲级 & 98/100\\
+\end{tabular}
+
+
+\end{document}
